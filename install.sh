@@ -8,7 +8,7 @@ echo "Installieren der Pakete Curl und wget"
 read -p "Soll git,curl und wget installiert werden? (j,J,y,Y/n,N) (any other key to exit " antwortgit
 case $antwortgit in
 j*|J*|y*|Y*)
-apt-get -yes --force-yes install git curl wget 
+apt-get -yes --force-yes install git curl wget zsh 
 echo "Git, Curl und wget wurden erfolgreich installiert" ;;
 n*|N*) echo "git curl und wget werden nicht installiert" ;;
 *) echo "falsche Eingabe abbruch" 
